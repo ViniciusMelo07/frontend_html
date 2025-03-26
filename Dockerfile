@@ -4,6 +4,6 @@ WORKDIR /app
 
 COPY . .
 
-EXPOSE 8080
+EXPOSE 80
 
 CMD ["python3", "-m", "http.server", "8080"]
